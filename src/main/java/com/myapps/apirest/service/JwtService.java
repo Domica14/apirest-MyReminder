@@ -19,7 +19,7 @@ import java.util.function.Function;
 @Service
 public class JwtService {
 
-    private static final String SECRET_KEY = "V2ZEWENMdWdtUW43djZHOWhldEJ5c2NGVEtVWk5wZEg0OFNSRU1rangzWXpiMkE1SmE=";
+    private static final String SECRET_KEY = "SECRET-KEY";
 
     public String getToken(UserDetails user) {
         return getToken(new HashMap<>(), user);
